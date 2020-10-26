@@ -4,7 +4,8 @@ This project was created with create-react-app.
 
 This a simulation of a card deck video game.
 
+To start:
+<code>yarn start</code>
 
-## `yarn start`
-
-## `yarn test`
+To test:
+<code>yarn test</code>
