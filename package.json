@@ -14,7 +14,7 @@
   "scripts": {
     "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "SKIP_PREFLIGHT_CHECK=true react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,6 +36,9 @@
     ]
   },
   "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.1",
     "eslint": "^7.11.0"
   }
 }

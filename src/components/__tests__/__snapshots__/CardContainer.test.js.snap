@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardContainer /> it should mock context 1`] = `
+<div
+  className="card-container"
+>
+  <div
+    className="unrevealed"
+  >
+    <div
+      className="card flip-card "
+      key="0"
+      onClick={[Function]}
+      style={
+        Object {
+          "transform": "translate3d(-50%, -50%, 0px)",
+          "zIndex": "-(arr.length - i - 1)",
+        }
+      }
+    >
+      <div
+        className="flip-card-inner"
+      >
+        <div
+          className="flip-card-front"
+        />
+        <div
+          className="flip-card-back"
+        >
+          1
+        </div>
+      </div>
+    </div>
+    <div
+      className="card flip-card flipped"
+      key="1"
+      onClick={[Function]}
+      style={
+        Object {
+          "transform": "translate3d(-50%, -50%, 1px)",
+          "zIndex": "-(arr.length - i - 1)",
+        }
+      }
+    >
+      <div
+        className="flip-card-inner"
+      >
+        <div
+          className="flip-card-front"
+        />
+        <div
+          className="flip-card-back"
+        >
+          2
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="revealed"
+  />
+</div>
+`;
